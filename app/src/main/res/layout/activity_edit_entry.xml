@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditEntryActivity">
+
+
+    <EditText
+        android:id="@+id/edLoginIDEd"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:hint="Login ID" />
+    <EditText
+        android:id="@+id/edLoginEd"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:hint="Login" />
+
+    <EditText
+        android:id="@+id/edPasswordEd"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+
+    <EditText
+        android:id="@+id/edNoteEd"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:hint="Note" />
+
+
+    <Button
+        android:id="@+id/btnEditEd"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="500dp"
+        android:text="Edit"
+        />
+    <Button
+        android:id="@+id/btnDeleteEd"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="500dp"
+        android:text="Delete"
+        />
+
+    <Button
+        android:id="@+id/btnCancelEd"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="550dp"
+        android:text="Cancel"
+        />
+
+    <Switch
+        android:id="@+id/switchShowPassEd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="300dp"
+        android:layout_toEndOf="@+id/edPasswordEd"
+        />
+</RelativeLayout>
